@@ -22,7 +22,7 @@ sulphates = st.number_input('Sulphates')
 alcohol = st.number_input('Alcohol')
 
 # Buat DataFrame untuk input
-input_data = ph.DataFrame({
+input_data = pd.DataFrame({
     'fixed acidity': [fixed_acidity],
     'volatile acidity': [volatile_acidity],
     'citric acid': [citric_acid],
