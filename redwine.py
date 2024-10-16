@@ -41,4 +41,5 @@ input_data = pd.DataFrame({
 if st.button('Prediksi Kualitas'):
     prediction = model.predict(input_data)
     st.write(f'Prediksi Kualitas Anggur: {prediction[0]}')
+    st.dataframe(input_data)
 
